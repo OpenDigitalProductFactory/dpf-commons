@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "component": "dpf-commons",
+  "sourceRepository": "https://github.com/OpenDigitalProductFactory/opendigitalproductfactory",
+  "sourceRevision": "56f3a5d2d57d751eb3ac435dcca4133c5ff46686",
+  "mergedPR": "https://github.com/OpenDigitalProductFactory/opendigitalproductfactory/pull/6724",
+  "license": "Apache-2.0",
+  "qualification": "Synthetic reference ports only; no production review, durable reservations, exactly-once effects, tenant isolation, standards conformance or governed adoption qualification.",
+  "publication": "public source seed; no package release or consumer acceptance",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstreamPath": "LICENSE",
+      "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "NOTICE",
+      "upstreamPath": "NOTICE",
+      "gitBlob": "54507a7c56acd4bcba6868607038f1db6b4e1da4",
+      "sha256": "edca2f3be891d8dc17e077eee49e979fd8348ae50eb6cba7700257ce87e5f650",
+      "bytes": 569,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/_shared/read-regular-file.mjs",
+      "upstreamPath": "examples/_shared/read-regular-file.mjs",
+      "gitBlob": "c07131eb8b93407b1eb392085e9d927f1440fe2d",
+      "sha256": "cc3b57089dd6d732706b7651a9d3a6ca586c6c2b02adc9db5d3226d96993e5f3",
+      "bytes": 797,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/LICENSE",
+      "upstreamPath": "examples/commons-exchange/LICENSE",
+      "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/NOTICE",
+      "upstreamPath": "examples/commons-exchange/NOTICE",
+      "gitBlob": "99d905fdb5ae96232b3f50dfa91f159ced5f15f7",
+      "sha256": "aabba64736fcf22f3f59c0bead5dd6f4a77366e8772ad5d0ce9c18ffd27fe191",
+      "bytes": 409,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/README.md",
+      "upstreamPath": "examples/commons-exchange/README.md",
+      "gitBlob": "86a43230322ee89244bca9812adc727bc913d8fc",
+      "sha256": "2e47210b755b3669c7563519469b442454965ae8d5a096ea5f5c020eb7b45e0f",
+      "bytes": 7644,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/closure.json",
+      "upstreamPath": "examples/commons-exchange/closure.json",
+      "gitBlob": "5a10c087bb6b6ce354126a03e2fabdfc61a88ec8",
+      "sha256": "e4cd738be24f9add0f9da6476101231351d5ceea78abbf55ccc3284af1c0fe96",
+      "bytes": 920,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/run.mjs",
+      "upstreamPath": "examples/commons-exchange/run.mjs",
+      "gitBlob": "c3e6ec2661870ecaf91a2916d24259f3d04022e4",
+      "sha256": "977c029a0b134966fada289251230a0d04353cf7d7ddf68196b8b8993385203a",
+      "bytes": 3851,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/src/smoke.ts",
+      "upstreamPath": "examples/commons-exchange/src/smoke.ts",
+      "gitBlob": "840b78fb485b6e4c3c5d5365f06766306dd07283",
+      "sha256": "861b5e96415b7a1fc06a3eeabbe60851a02c6d9b1cb95e6add703a43599fa2c8",
+      "bytes": 7198,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/tsconfig.json",
+      "upstreamPath": "examples/commons-exchange/tsconfig.json",
+      "gitBlob": "1a7073456ac54639014cfeefa1c995db7ff60b71",
+      "sha256": "7d447c2ddddf1c382a58535b942ef4fa1795f8b5b7b604ebdded25d1ef106ee4",
+      "bytes": 423,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/commons-exchange/verification.txt",
+      "upstreamPath": "examples/commons-exchange/verification.txt",
+      "gitBlob": "aaca5fbb621f61251a8110bf9caad30e05572158",
+      "sha256": "5e76db045451a5c701419c4f90630bc3b3e32575c7cd195eb65ce320fa6cf452",
+      "bytes": 1526,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/bounded-trusted-json.ts",
+      "upstreamPath": "packages/validators/src/bounded-trusted-json.ts",
+      "gitBlob": "6e0b92b07d1d3d6769d88e3af735727c1982fad3",
+      "sha256": "5acf5705f467c81acf3eb9c018acb151d7cab88ea57aaf2d6ed4a37a2ee9bc0b",
+      "bytes": 1777,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/commons/exchange.ts",
+      "upstreamPath": "packages/validators/src/commons/exchange.ts",
+      "gitBlob": "a72e9d9c0c1b67b202cc1d61c2791607a553fb3b",
+      "sha256": "c2fd50229720c67f7707cf7742416337c506166bdb8a06892ce8236116435696",
+      "bytes": 8715,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/commons/finding-contribution.ts",
+      "upstreamPath": "packages/validators/src/commons/finding-contribution.ts",
+      "gitBlob": "871914485aee5f6b558d8babe6ff795c0e1d3681",
+      "sha256": "21a3ae17498816c50d7fbad2485ba92d7ac11a49e872adcd149527b61977d79f",
+      "bytes": 7359,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/commons/index.ts",
+      "upstreamPath": "packages/validators/src/commons/index.ts",
+      "gitBlob": "41e1802898582304ca285eeb598c15604910166c",
+      "sha256": "536b55ec00b4b927b731e5eb1a1dff9afb49078a3351691d01becc800dadc3c6",
+      "bytes": 150,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/commons/node.ts",
+      "upstreamPath": "packages/validators/src/commons/node.ts",
+      "gitBlob": "299095fdcbe2f4ccac0d73572b5b7c66be9849f1",
+      "sha256": "0fa5b9a9566749dc2773ea6e9aa4fc0ae375c438a6021d7ac3cdc3b697576929",
+      "bytes": 704,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/commons/result-intake.ts",
+      "upstreamPath": "packages/validators/src/commons/result-intake.ts",
+      "gitBlob": "a82b262bdae618857d4fe0aed72007a42c7b68b9",
+      "sha256": "4f1db813bcf16e7982d3431a34e2c84a7bf3198f7dee86672cdad145953dcbd7",
+      "bytes": 2816,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/commons/result-projection.ts",
+      "upstreamPath": "packages/validators/src/commons/result-projection.ts",
+      "gitBlob": "5cb5ea343b3fcccd8ef9912fb1098282a07073aa",
+      "sha256": "488a4277745245231752946a6c8137d5b24c4820859d30836e37057db44bf8c7",
+      "bytes": 2892,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/decision-scopes.ts",
+      "upstreamPath": "packages/validators/src/decision-scopes.ts",
+      "gitBlob": "7c672a1b3d2fcbe44993108f66683916438d1a4c",
+      "sha256": "17dea1d50d55298ccbca2259c3e8a8953fdf102bb07374db91b8c4036403e349",
+      "bytes": 210,
+      "role": "frozen-compatibility-dependency"
+    }
+  ]
+}

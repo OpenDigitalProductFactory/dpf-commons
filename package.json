@@ -1,0 +1,24 @@
+{
+  "name": "@opendigitalproductfactory/dpf-commons",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private contribution projection, review and exchange contracts",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenDigitalProductFactory/dpf-commons.git"
+  },
+  "engines": {
+    "node": "24.16.0"
+  },
+  "scripts": {
+    "verify:source": "node scripts/verify-provenance.mjs",
+    "test": "node examples/commons-exchange/run.mjs",
+    "check": "npm run verify:source && npm test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}
